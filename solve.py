@@ -30,5 +30,4 @@ def find_clusters(matrix):
 
 if __name__ == "__main__":
     teams = find_clusters(input)
-    print(teams)
     print(f'{len(teams)} teams of {teams} totalling {sum(teams)}')
